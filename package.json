@@ -1,0 +1,25 @@
+{
+  "name": "blure.xyz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.12.0",
+    "koa-logger": "^3.2.1",
+    "koa-pug": "^4.0.4",
+    "koa-router": "^9.0.1",
+    "koa-static": "^5.0.0",
+    "nes.css": "^2.3.0",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "koa-body": "^4.2.0"
+  }
+}
