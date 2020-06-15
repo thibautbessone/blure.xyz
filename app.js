@@ -19,7 +19,9 @@ app.use(homeRouter.routes());
 app.use(homeRouter.allowedMethods());
 
 app.use(async ctx => {
-    pug.render('home');
+    if (ctx.status === 404) {
+        await ctx.render('notFound');
+    }
 });
 
 app.listen(3000);
