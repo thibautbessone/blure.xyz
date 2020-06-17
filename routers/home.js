@@ -2,7 +2,7 @@ const Router = require('koa-router');
 
 const homeRouter = new Router();
 
-homeRouter.get('/home', async (ctx) => {
+homeRouter.get('/', async (ctx) => {
     await ctx.render('home');
 });
 

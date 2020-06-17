@@ -1,1 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+/* 404 */
+#main {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-weight: normal;
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.link {
+    color: #212529;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #0088FF; /* placeholder */
+}
+
+.fof h1 {
+    /*font-size: 50px;*/
+    display: inline-block;
+    padding-right: 12px;
+}
