@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    .container
+        div.readme!= md(readme)
+
+        a.backLink.link(href='/projects/')
+            h5 &gt; back
