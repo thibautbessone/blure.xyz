@@ -43,3 +43,11 @@ h3, h4 {
 .backLink {
     margin-top: 200px;
 }
+
+.mediaIcons {
+    margin-top: 20px;
+}
+
+.mediaIcons .nes-icon {
+    margin: 0 2px 0 2px;
+}
