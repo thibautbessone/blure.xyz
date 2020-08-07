@@ -9,13 +9,18 @@
     font-weight: normal;
 }
 
+body {
+    color: #ada79f;
+    background-color: #141515;
+}
+
 .container {
     display: table-cell;
     vertical-align: middle;
 }
 
 .link, link:visited {
-    color: #212529;
+    color: #ada79f;
     text-decoration: none;
 }
 
@@ -50,4 +55,22 @@ h3, h4 {
 
 .mediaIcons .nes-icon {
     margin: 0 2px 0 2px;
+}
+
+.logo {
+    color: #0088FF;
+    margin-bottom: 40px;
+}
+
+.char {
+    color: #ada79f;
+}
+
+.caret {
+    color: #ada79f;
+    animation: 1s blink infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0 }
 }
