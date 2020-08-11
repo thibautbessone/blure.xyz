@@ -45,8 +45,9 @@ h3, h4 {
     margin: 40px auto 30px auto;
 }
 
-.backLink {
-    margin-top: 200px;
+.backLink h5 {
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .mediaIcons {
@@ -69,6 +70,10 @@ h3, h4 {
 .caret {
     color: #ada79f;
     animation: 1s blink infinite;
+}
+
+.ghLink h5 {
+    margin-top: 40px !important;
 }
 
 @keyframes blink {

@@ -2,6 +2,8 @@ extends layout
 
 block content
     .container
+        a.ghLink.link(href=repoUrl)
+            h5 &lt;/&gt; github repository
         div.readme!= md(readme)
 
         a.backLink.link(href='/projects/')
