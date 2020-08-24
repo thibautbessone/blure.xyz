@@ -4,12 +4,14 @@ const logger = require('koa-logger');
 const serve = require('koa-static');
 const Router = require('koa-router');
 const Pug = require('koa-pug');
+const favicon = require('koa-favicon');
 
 const homeRouter = require('./routers/home')
 const projectsRouter = require('./routers/projects')
 
 const app = new Koa();
 app.use(serve('./public'));
+app.use(favicon('./public/blure.gif'));
 const pug = new Pug({
     viewPath: './views',
     basedir: './views',
